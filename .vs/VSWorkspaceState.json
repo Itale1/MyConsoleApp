@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\bin",
-    "\\dist\\client",
-    "\\dist\\server",
-    "\\src",
-    "\\src\\client",
-    "\\src\\server"
+    "\\cfg",
+    "\\dist",
+    "\\src"
   ],
-  "SelectedNode": "\\src\\server\\indexTemplate.js",
+  "SelectedNode": "\\bin\\dev.js",
   "PreviewInSolutionExplorer": false
 }
