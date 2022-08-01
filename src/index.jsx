@@ -1,7 +1,12 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { createRoot } from "react-dom/client";
 import { Header } from "./Header";
-window.addEventListener('load', () =>{
-   ReactDOM.render(<Header />, document.getElementById( 'react_root'));
-});
 
+const container = document.getElementById('react_root');
+const react_root = createRoot(container);
+
+window.addEventListener('load', () => {
+    react_root.render(<React.StrictMode>
+        <Header />
+    </React.StrictMode>);
+});
