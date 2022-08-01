@@ -16,7 +16,7 @@ module.exports = {
     externals: [nodeExternals()],
     module: {
         rules: [{
-            test: /\.[tj]sx?$/,
+            test: /\.[jt]sx?$/,
             use: ['ts-loader']
         }]
     },
